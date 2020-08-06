@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,9 +8,16 @@ public class Fan : MonoBehaviour
     private Rigidbody pleyrRb;
     public float elevForce;
     public Rigidbody enemyRb;
+    private ParticleSystem particleSyst;
     private void Awake()
     {
         pleyrRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
+        particleSyst = GetComponent<ParticleSystem>();
+    }
+
+    private void Start()
+    {
+        particleSyst.Pause();
     }
 
     private void OnTriggerStay(Collider other)

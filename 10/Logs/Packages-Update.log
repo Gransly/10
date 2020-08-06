@@ -12,3 +12,12 @@ The following packages were added:
   com.unity.ide.rider@1.1.0
   com.unity.ugui@1.0.0
   com.unity.modules.androidjni@1.0.0
+
+=== Thu Aug  6 12:34:03 2020
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.probuilder@4.0.5
+  com.unity.render-pipelines.high-definition@6.9.0-preview

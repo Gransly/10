@@ -108,9 +108,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 100
-  camTransform: {fileID: 0}
+  walkspeed: 100
+  runspeed: 1000
+  jumpStamiaMin: 1000
+  staminaMin: 20
   jumpforce: 10000
-  rb: {fileID: 2669666077717089585}
 --- !u!114 &2669666077717089584
 MonoBehaviour:
   m_ObjectHideFlags: 0

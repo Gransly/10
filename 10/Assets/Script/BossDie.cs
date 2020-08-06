@@ -8,7 +8,7 @@ public class BossDie : MonoBehaviour
 {
     public Object Enemy;
     public float jumpForce;
-    public GameObject finish;
+    public GameObject text;
     
     private int bossHealth = 3;
     private Rigidbody player;
@@ -41,7 +41,7 @@ public class BossDie : MonoBehaviour
     private void Die()
     {
         Destroy(Enemy);
-        finish.SetActive(true);
+        text.SetActive(true);
         
     }
     

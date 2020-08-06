@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - End
+  - CPM
+  - Enemy
+  - EnemyCollider
+  - Canvas
+  - Player1
+  - PLayer2
   layers:
   - Default
   - TransparentFX

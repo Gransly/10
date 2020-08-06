@@ -71,7 +71,7 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForce(camTransform.right* movespeed * Time.fixedDeltaTime);
         }
-
+        
         if (Input.GetKeyDown(KeyCode.Space) && stamina > 30f)
         {
             stamina -= jumpStamiaMin * Time.deltaTime;

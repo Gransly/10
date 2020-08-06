@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewLvl : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class NewLvl : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Application.LoadLevel(1);
+            SceneManager.LoadScene(1);
         }
         
     }

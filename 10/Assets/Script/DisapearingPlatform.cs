@@ -17,9 +17,9 @@ public class DisapearingPlatform : MonoBehaviour
        platformMesh = GetComponent<MeshRenderer>();
     }
 
-    void OnTriggerEnter(Collision coll)
+    void OnTriggerEnter(Collider coll)
         {
-            if (coll.collider.CompareTag("Player"))
+            if (coll.CompareTag("Player"))
             {
                 StartCoroutine(Hide());
                 StartCoroutine(Show());

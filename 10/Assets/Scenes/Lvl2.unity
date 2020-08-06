@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1346,31 +1346,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
-        type: 3}
-      propertyPath: camTransform
-      value: 
-      objectReference: {fileID: 568788468}
-    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
-        type: 3}
-      propertyPath: walkspeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
-        type: 3}
-      propertyPath: runspeed
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
-        type: 3}
-      propertyPath: jumpStamiaMin
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
-        type: 3}
-      propertyPath: staminaMin
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 2669666077717089595, guid: 846650722ab022643aaa1f4ba8d771ef,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1425,6 +1400,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
+        type: 3}
+      propertyPath: camTransform
+      value: 
+      objectReference: {fileID: 568788468}
+    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
+        type: 3}
+      propertyPath: walkspeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
+        type: 3}
+      propertyPath: runspeed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
+        type: 3}
+      propertyPath: jumpStamiaMin
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669666077717089591, guid: 846650722ab022643aaa1f4ba8d771ef,
+        type: 3}
+      propertyPath: staminaMin
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 846650722ab022643aaa1f4ba8d771ef, type: 3}
@@ -1552,6 +1552,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3121988141334767251, guid: 2ab2173369d2e6543aa8dee6d4d3146e,
+        type: 3}
+      propertyPath: m_Name
+      value: HUD
+      objectReference: {fileID: 0}
     - target: {fileID: 3121988141334767247, guid: 2ab2173369d2e6543aa8dee6d4d3146e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1656,11 +1661,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121988141334767251, guid: 2ab2173369d2e6543aa8dee6d4d3146e,
-        type: 3}
-      propertyPath: m_Name
-      value: HUD
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ab2173369d2e6543aa8dee6d4d3146e, type: 3}
@@ -2371,6 +2371,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1263294556132022939, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
+        type: 3}
+      propertyPath: m_RenderingPathCustomFrameSettings.bitDatas.data1
+      value: 12885884928
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263294556132022939, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
+        type: 3}
+      propertyPath: m_RenderingPathCustomFrameSettings.bitDatas.data2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263294556132022939, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
+        type: 3}
+      propertyPath: m_Version
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2152974998477783129, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
         type: 3}
       propertyPath: m_Name
@@ -2431,6 +2446,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2152974998477783143, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
+        type: 3}
+      propertyPath: m_HDR
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152974998477783143, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
+        type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2152974998477783141, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
         type: 3}
       propertyPath: lookAt
@@ -2444,6 +2469,111 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 568788467}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &568788469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2152974998477783129, guid: 9452dcd20943b8c41a6f8012a0a7d3b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 568788467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &568788470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568788469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearColorMode: 0
+  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
+  clearDepth: 1
+  volumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  volumeAnchorOverride: {fileID: 0}
+  antialiasing: 0
+  SMAAQuality: 2
+  dithering: 0
+  stopNaNs: 0
+  physicalParameters:
+    m_Iso: 200
+    m_ShutterSpeed: 0.005
+    m_Aperture: 16
+    m_BladeCount: 5
+    m_Curvature: {x: 2, y: 11}
+    m_BarrelClipping: 0.25
+    m_Anamorphism: 0
+  flipYMode: 0
+  fullscreenPassthrough: 0
+  allowDynamicResolution: 0
+  customRenderingSettings: 0
+  invertFaceCulling: 0
+  probeLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPathCustomFrameSettings:
+    bitDatas:
+      data1: 69284264935197
+      data2: 4539628424389459968
+    lodBias: 1
+    lodBiasMode: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+  renderingPathCustomFrameSettingsOverrideMask:
+    mask:
+      data1: 0
+      data2: 0
+  defaultFrameSettings: 0
+  m_Version: 5
+  m_ObsoleteRenderingPath: 0
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
 --- !u!1 &677989384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,6 +2584,8 @@ GameObject:
   m_Component:
   - component: {fileID: 677989386}
   - component: {fileID: 677989385}
+  - component: {fileID: 677989388}
+  - component: {fileID: 677989387}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2472,7 +2604,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 3.1415927
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2512,7 +2644,7 @@ Light:
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
+  m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2535,6 +2667,107 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &677989387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677989384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c2871f720b2af4e9210febdac74517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  shadowResolution: 512
+  shadowDimmer: 1
+  volumetricShadowDimmer: 1
+  shadowFadeDistance: 10000
+  contactShadows: 0
+  shadowTint: {r: 0, g: 0, b: 0, a: 1}
+  viewBiasMin: 0.2
+  viewBiasMax: 100
+  viewBiasScale: 1
+  normalBiasMin: 0.5
+  normalBiasMax: 0.5
+  normalBiasScale: 1
+  sampleBiasScale: 0
+  edgeLeakFixup: 0
+  edgeToleranceNormal: 1
+  edgeTolerance: 1
+  shadowCascadeCount: 4
+  shadowCascadeRatios:
+  - 0.05
+  - 0.2
+  - 0.3
+  shadowCascadeBorders:
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  shadowAlgorithm: 0
+  shadowVariant: 0
+  shadowPrecision: 0
+--- !u!114 &677989388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677989384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+  m_Version: 5
+  directionalIntensity: 3.1415927
+  punctualIntensity: 600
+  areaIntensity: 200
+  enableSpotReflector: 0
+  luxAtDistance: 1
+  m_InnerSpotPercent: 0
+  lightDimmer: 1
+  m_VolumetricDimmer: 1
+  lightUnit: 2
+  fadeDistance: 10000
+  affectDiffuse: 1
+  affectSpecular: 1
+  nonLightmappedOnly: 0
+  lightTypeExtent: 0
+  m_SpotLightShape: 0
+  shapeWidth: 0.5
+  shapeHeight: 0.5
+  aspectRatio: 1
+  shapeRadius: 0
+  maxSmoothness: 0.99
+  applyRangeAttenuation: 1
+  useOldInspector: 0
+  useVolumetric: 1
+  featuresFoldout: 1
+  showAdditionalSettings: 0
+  displayLightIntensity: 3.1415927
+  displayAreaLightEmissiveMesh: 0
+  areaLightCookie: {fileID: 0}
+  areaLightShadowCone: 120
+  useScreenSpaceShadows: 0
+  evsmExponent: 15
+  evsmLightLeakBias: 0
+  evsmVarianceBias: 0.00001
+  evsmBlurPasses: 0
+  lightLayers: 1
+  lightlayersMask: 1
+  linkShadowLayers: 1
+  shadowNearPlane: 0.1
+  shadowSoftness: 0.5
+  blockerSampleCount: 24
+  filterSampleCount: 16
+  minFilterSize: 0.00001
+  kernelSize: 5
+  lightAngle: 1
+  maxDepthBias: 0.001
 --- !u!43 &738072431
 Mesh:
   m_ObjectHideFlags: 0
@@ -2711,6 +2944,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7543660119437822641, guid: 10c583f38c0f99249a751d3216b7e3ae,
+        type: 3}
+      propertyPath: m_Name
+      value: CheckPointMaster
+      objectReference: {fileID: 0}
     - target: {fileID: 7543660119437822640, guid: 10c583f38c0f99249a751d3216b7e3ae,
         type: 3}
       propertyPath: firstChecpointPose.x
@@ -2740,11 +2978,6 @@ PrefabInstance:
         type: 3}
       propertyPath: lastCheckpointPose.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7543660119437822641, guid: 10c583f38c0f99249a751d3216b7e3ae,
-        type: 3}
-      propertyPath: m_Name
-      value: CheckPointMaster
       objectReference: {fileID: 0}
     - target: {fileID: 7543660119437822643, guid: 10c583f38c0f99249a751d3216b7e3ae,
         type: 3}
@@ -2818,7 +3051,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1199558898}
-  - component: {fileID: 1199558897}
   m_Layer: 0
   m_Name: TpToBoss
   m_TagString: Untagged
@@ -2826,19 +3058,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1199558897
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199558896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1199558898
 Transform:
   m_ObjectHideFlags: 0
@@ -4768,16 +4987,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 970229873478523542, guid: 4fd2a062b5904a146aba2ad6a9e85264,
-        type: 3}
-      propertyPath: finish
-      value: 
-      objectReference: {fileID: 1701900732}
-    - target: {fileID: 5133248412646156328, guid: 4fd2a062b5904a146aba2ad6a9e85264,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 749872726}
     - target: {fileID: 5133248412646156329, guid: 4fd2a062b5904a146aba2ad6a9e85264,
         type: 3}
       propertyPath: m_Name
@@ -4788,6 +4997,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 970229873478523542, guid: 4fd2a062b5904a146aba2ad6a9e85264,
+        type: 3}
+      propertyPath: finish
+      value: 
+      objectReference: {fileID: 1701900732}
+    - target: {fileID: 5133248412646156328, guid: 4fd2a062b5904a146aba2ad6a9e85264,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 749872726}
     - target: {fileID: 5133248412646156335, guid: 4fd2a062b5904a146aba2ad6a9e85264,
         type: 3}
       propertyPath: m_LocalPosition.x

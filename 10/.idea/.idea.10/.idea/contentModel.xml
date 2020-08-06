@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\bob03\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\bob03\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_10.-1011013123.00" t="ExcludeRecursive" />
+    <e p="D:\Github\10\10\10" t="IncludeRecursive">
+      <e p="10.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="PolarizedPlatformPack" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ViewDrag.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Script" t="Include">
+          <e p="2Lvl" t="Include">
+            <e p="Camera1.cs" t="Include" />
+            <e p="Camera2.cs" t="Include" />
+            <e p="CoopPLate.cs" t="Include" />
+            <e p="DestroyTrigger.cs" t="Include" />
+            <e p="HUD.cs" t="Include" />
+            <e p="Llv3.cs" t="Include" />
+            <e p="PlayersControl.cs" t="Include" />
+            <e p="SecondPlayer.cs" t="Include" />
+          </e>
+          <e p="BossDie.cs" t="Include" />
+          <e p="CameraControl.cs" t="Include" />
+          <e p="CheckPoint.cs" t="Include" />
+          <e p="CheckPointMaster.cs" t="Include" />
+          <e p="DeathScript.cs" t="Include" />
+          <e p="DestroyPlatorm.cs" t="Include" />
+          <e p="DisapearAfterTouch.cs" t="Include" />
+          <e p="DisapearingPlatform.cs" t="Include" />
+          <e p="ElevateObjects.cs" t="Include" />
+          <e p="Elevator.cs" t="Include" />
+          <e p="EnemyDie.cs" t="Include" />
+          <e p="EnemyScript.cs" t="Include" />
+          <e p="Fan.cs" t="Include" />
+          <e p="Finish.cs" t="Include" />
+          <e p="HealthControl.cs" t="Include" />
+          <e p="NewLvl.cs" t="Include" />
+          <e p="PlayerControls.cs" t="Include" />
+          <e p="PlayerDie.cs" t="Include" />
+          <e p="PlleyerPos.cs" t="Include" />
+          <e p="SwitchOffOn.cs" t="Include" />
+          <e p="TeleportPlayer.cs" t="Include" />
+          <e p="TextBoss.cs" t="Include" />
+          <e p="TurnOn.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CP.cs" t="Include" />
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
