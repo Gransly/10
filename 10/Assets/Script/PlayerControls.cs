@@ -24,6 +24,10 @@ public class PlayerControls : MonoBehaviour
     
     private Transform playerTransform;
     private Rigidbody rb;
+
+    public AudioSource jumpSound;
+    public AudioSource sprintSound;
+    
     
     // Start is called before the first frame update
     private void Awake()
@@ -38,6 +42,7 @@ public class PlayerControls : MonoBehaviour
     {
         if (stamina > 0  && Input.GetKey(KeyCode.LeftShift) && ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A)) ))
         {
+            sprintSound.Play();
             movespeed = runspeed;
             ManaWaste();
         }
@@ -74,6 +79,7 @@ public class PlayerControls : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space) && stamina > 30f)
         {
+            jumpSound.Play();
             stamina -= jumpStamiaMin * Time.deltaTime;
             hud.staminaBar.fillAmount = stamina / 100;
             stamina = Mathf.Clamp(stamina, 0, 100);

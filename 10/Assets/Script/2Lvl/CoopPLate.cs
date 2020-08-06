@@ -7,6 +7,7 @@ public class CoopPLate : MonoBehaviour
 {
     public GameObject door;
     private Animator rockAnim;
+    public AudioSource pressSound;
 
     private void Start()
     {
@@ -17,6 +18,7 @@ public class CoopPLate : MonoBehaviour
     {
         if (other.CompareTag("PLayer2") || other.CompareTag("Player1"))
         {
+            pressSound.Play();
             rockAnim.SetTrigger("IsUp");
         }
     }
@@ -25,6 +27,7 @@ public class CoopPLate : MonoBehaviour
     {
         if (other.CompareTag("PLayer2") || other.CompareTag("Player1"))
         {
+            pressSound.Play();
             rockAnim.SetTrigger("IsDown");
         }
     }

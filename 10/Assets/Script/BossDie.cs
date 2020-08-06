@@ -14,6 +14,8 @@ public class BossDie : MonoBehaviour
     private Rigidbody player;
     private bool isInvincible = true;
     private Transform camera;
+    public AudioSource bossMusic;
+    public AudioSource bossDieMusic;
 
     private void Awake()
     {
@@ -35,11 +37,13 @@ public class BossDie : MonoBehaviour
 
         if (bossHealth == 0)
         {
+            bossMusic.Stop();
             Die();
         }
     }
     private void Die()
     {
+        bossDieMusic.Play();
         Destroy(Enemy);
         text.SetActive(true);
         

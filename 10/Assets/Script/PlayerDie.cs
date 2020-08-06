@@ -11,11 +11,13 @@ public class PlayerDie : MonoBehaviour
         private CheckPointMaster check;
         private Rigidbody playerRb;
         private Transform playerTrans;
+        private AudioSource hurtSound;
         
         private void Awake()
         { 
                 playerTrans = GetComponent<Transform>();
                 playerRb = GetComponent<Rigidbody>();
+                hurtSound = GetComponent<AudioSource>();
         }
 
         private void OnTriggerStay(Collider other)
@@ -24,6 +26,7 @@ public class PlayerDie : MonoBehaviour
                 {
                         isInvincible = false;
                         HealthControl.health--;
+                        hurtSound.Play();
                         StartCoroutine(GetInvulnerable());
                 }
                 
